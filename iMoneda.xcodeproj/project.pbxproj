@@ -12,6 +12,8 @@
 		C7CF4B3F235F7E2000B09AEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7CF4B3D235F7E2000B09AEB /* Main.storyboard */; };
 		C7CF4B41235F7E2100B09AEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7CF4B40235F7E2100B09AEB /* Assets.xcassets */; };
 		C7CF4B44235F7E2100B09AEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7CF4B42235F7E2100B09AEB /* LaunchScreen.storyboard */; };
+		C7CF4B4E235F7F1800B09AEB /* Tirada.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CF4B4D235F7F1800B09AEB /* Tirada.swift */; };
+		C7CF4B50235F7F2E00B09AEB /* Moneda.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CF4B4F235F7F2E00B09AEB /* Moneda.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C7CF4B40235F7E2100B09AEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7CF4B43235F7E2100B09AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7CF4B45235F7E2100B09AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7CF4B4D235F7F1800B09AEB /* Tirada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tirada.swift; sourceTree = "<group>"; };
+		C7CF4B4F235F7F2E00B09AEB /* Moneda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moneda.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		C7CF4B38235F7E2000B09AEB /* iMoneda */ = {
 			isa = PBXGroup;
 			children = (
+				C7CF4B4D235F7F1800B09AEB /* Tirada.swift */,
+				C7CF4B4F235F7F2E00B09AEB /* Moneda.swift */,
 				C7CF4B39235F7E2000B09AEB /* AppDelegate.swift */,
 				C7CF4B3B235F7E2000B09AEB /* ViewController.swift */,
 				C7CF4B3D235F7E2000B09AEB /* Main.storyboard */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7CF4B3C235F7E2000B09AEB /* ViewController.swift in Sources */,
+				C7CF4B4E235F7F1800B09AEB /* Tirada.swift in Sources */,
 				C7CF4B3A235F7E2000B09AEB /* AppDelegate.swift in Sources */,
+				C7CF4B50235F7F2E00B09AEB /* Moneda.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
